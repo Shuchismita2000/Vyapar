@@ -1,8 +1,8 @@
-# SmartRetail AI: Forecasting Demand & Optimizing Inventory for Future-Ready RetailDynamic-Pricing
+# Vyapar: Forecasting Demand & Optimizing Inventory for Future-Ready RetailDynamic-Pricing
 
 ## Company Background:
 
-**SmartRetail Corp.** is a national retail chain operating a network of mid-sized convenience stores across the country. Known for its wide assortment of household goods, groceries, and seasonal products, SmartRetail aims to provide excellent customer experiences while ensuring operational efficiency in its supply chain.
+**SmartRetail Corp.** is a fictional national retail chain operating a network of mid-sized convenience stores across the country. Known for its wide assortment of household goods, groceries, and seasonal products, SmartRetail aims to provide excellent customer experiences while ensuring operational efficiency in its supply chain.
 
 In recent years, SmartRetail has faced challenges due to fluctuating consumer demand, supply chain disruptions, and increased competition from both physical and e-commerce retailers. To stay competitive, SmartRetail has embarked on a data-driven transformation, leveraging AI and machine learning to optimize inventory management and pricing strategy.
 
