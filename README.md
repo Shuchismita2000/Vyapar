@@ -1,6 +1,6 @@
 # SmartRetail AI: Forecasting Demand & Optimizing Inventory for Future-Ready RetailDynamic-Pricing
 
-### Company Background:
+## Company Background:
 
 **SmartRetail Corp.** is a national retail chain operating a network of mid-sized convenience stores across the country. Known for its wide assortment of household goods, groceries, and seasonal products, SmartRetail aims to provide excellent customer experiences while ensuring operational efficiency in its supply chain.
 
@@ -20,8 +20,6 @@ SmartRetail Corp. has collected extensive data from its stores including daily s
     Prices are set using static rules rather than real-time data, leading to missed revenue opportunities during peak demand periods or over-discounting during slow sales.
     
 
----
-
 ## Data Science Challenges
 
 ###  Challenge 1: Time Series Demand Forecasting
@@ -32,7 +30,6 @@ Build robust models (e.g., LSTM, Prophet, XGBoost) to forecast daily product-lev
 **Business Impact:**  
 Improve stock planning, reduce lost sales due to stockouts, and ensure better alignment of supply with actual demand.
 
----
 
 ### Challenge 2: Inventory Optimization
 
@@ -42,8 +39,6 @@ Develop an intelligent inventory replenishment system that minimizes overstock a
 **Business Impact:**  
 Reduce warehousing costs and increase inventory turnover rate, improving overall efficiency in the supply chain.
 
----
-
 ### Challenge 3: Dynamic Pricing Strategy
 
 **Objective:**  
@@ -52,7 +47,6 @@ Design a pricing algorithm that adapts prices dynamically based on demand elasti
 **Business Impact:**  
 Maximize revenue and profit margins while staying competitive in local markets.
 
----
 
 ## Project Goals
 
@@ -61,3 +55,49 @@ Maximize revenue and profit margins while staying competitive in local markets.
 - Equip stakeholders with real-time dashboards and forecasting tools.
     
 - Reduce waste and lost sales while maximizing profitability.
+
+
+```bash
+                    ┌──────────────────────┐
+                    │   External Signals   │
+                    │ Weather, Holidays,   │
+                    │ Events, Competitors  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────┐
+│              DATA INGESTION LAYER                  │
+│ POS | Inventory | Promotions | Pricing | ERP | CRM│
+└─────────────────────────────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────┐
+│                RETAIL DATA LAKEHOUSE               │
+│               Bronze / Silver / Gold               │
+└─────────────────────────────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────┐
+│             FEATURE ENGINEERING ENGINE                         │
+│ Demand | Inventory | Pricing | Elasticity Features │
+└─────────────────────────────────────────────────────┘
+             │                   │                  │
+             ▼                 ▼                ▼
+ ┌────────────────┐ ┌────────────────┐ ┌────────────────┐
+ │ Demand Forecast│ │Inventory Engine  │ │ Dynamic Pricing│
+ │     Models            │ │     Models            │ │     Models     │
+ └────────────────┘ └────────────────┘ └────────────────┘
+             │                 │                │
+             └──────────┬──────┴──────┬─────────┘
+                        ▼             ▼
+              ┌────────────────────────────┐
+              │ Retail Intelligence Layer  │
+              │ Alerts | Recommendations   │
+              │ Risk Detection | Insights  │
+              └────────────────────────────┘
+                               │
+                               ▼
+              ┌────────────────────────────┐
+              │ Dashboards + AI Copilot    │
+              └────────────────────────────┘
+```
