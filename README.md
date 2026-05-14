@@ -102,3 +102,32 @@ Maximize revenue and profit margins while staying competitive in local markets.
               └────────────────────────────┘
 
 ```
+
+### SYSTEM INTERDEPENDENCY
+```
+Demand Forecasting
+
+Predicts:
+
+future sales
+
+↓
+
+Inventory Optimization
+
+Uses forecast output to:
+
+optimize replenishment
+reduce stockout risk
+
+↓
+
+Dynamic Pricing
+
+Uses:
+
+demand forecast
+inventory levels
+sales velocity
+
+to optimize prices.
