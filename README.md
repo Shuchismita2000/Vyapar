@@ -110,7 +110,7 @@ Predicts:
 
 - future sales
 
-↓
+        ↓
 
 Inventory Optimization
 Uses forecast output to:
@@ -118,7 +118,7 @@ Uses forecast output to:
 - optimize replenishment
 - reduce stockout risk
 
-↓
+        ↓
 
 Dynamic Pricing
 Uses:
