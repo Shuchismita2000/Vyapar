@@ -4,9 +4,9 @@ To predict the **daily units sold** (`Units Sold`) for every product in each sto
 
 This helps **SmartRetail Corp.** prepare ahead for demand surges, reduce stockouts, and plan logistics efficiently.
 
-```
+
 ![alt text](feature_eng.png)
-```
+
 
 ### Modeling Approaches:
 
