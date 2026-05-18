@@ -4,32 +4,9 @@ To predict the **daily units sold** (`Units Sold`) for every product in each sto
 
 This helps **SmartRetail Corp.** prepare ahead for demand surges, reduce stockouts, and plan logistics efficiently.
 
----
-
-### Key Features Used:
-
-- **Date**, **Store ID**, **Product ID**
-    
-- **Category**, **Region**
-    
-- **Units Sold** (target variable)
-    
-- **Inventory Level** (lag features)
-    
-- **Price**, **Promotion Flag**
-    
-- **Holiday Flag**, **Weather Condition**
-    
-- Derived Features:
-    
-    - Lagged sales (`t-1`, `t-7`, `t-30`)
-        
-    - Rolling averages (7-day, 30-day)
-        
-    - Day-of-week, seasonality, trend indicators
-        
-
----
+```
+![alt text](feature_eng.png)
+```
 
 ### Modeling Approaches:
 
